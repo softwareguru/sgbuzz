@@ -32,6 +32,11 @@ div.content p {
     background: #c0c0c0;
 }
 
+#logo {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
 #zone-menu-wrapper {
     background: #bdd2ff;
 }
