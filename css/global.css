@@ -1,9 +1,95 @@
 /* This file will hold the main styles for your website. */
 
+p {
+    margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+h1 {
+   font-size: 2.4em;
+}
+
+div.content p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#section-header {
+  /* Aqui podria poner background de todo el header */
+}
+
+#zone-header-wrapper {
+    background: #404040;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#zone-branding-wrapper {
+    background: #c0c0c0;
+}
+
+#zone-menu-wrapper {
+    background: #bdd2ff;
+}
+
+#block-search-form {
+    margin-top: 30px;
+    text-align: right;
+}
+
+#mini-login {
+    text-align: right;
+    color: white;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+#mini-login a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+.center-aligned {
+    text-align: center;
+}
+
+#zone-footer {
+    background: #c0c0c0;
+}
+
+#region-footer-bottom {
+    width: 960px;
+    margin: 0;
+    padding: 5px 10px;
+    background: #ffffff;
+}
+
+.teaser_summary { float: left; width:67% }
+.teaser_share { float: right; width: 33%; text-align: right; }
+.teaser_footer { }
+div.teaser_summary p { margin: 0; }
+.teaser_header h4 { margin-bottom: 5px; }
+
+.node-teaser { border-bottom: 1px solid #C0C0C0; }
+
+div.view-mode-full div.field-type-image {
+   float: left;
+   margin-right: 15px;
+   margin-bottom: 12px;
+}
 
 .sf-menu.sf-style-default {
   float: left;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   padding: 0;
 }
 .sf-menu.sf-style-default.sf-navbar {
@@ -13,11 +99,15 @@
   padding-left: 0;
 }
 .sf-menu.sf-style-default a {
-  border-left: 1px solid #fff;
-  border-top: 1px solid #CFDEFF;
+  border-left: none;
+  border-top: none;
   padding: 0.75em;
   text-decoration: none;
 }
+.sf-menu.main-menu a {
+  padding-right: 2em;
+}
+
 .sf-menu.sf-style-default a,
 .sf-menu.sf-style-default a:visited  {
   color: #13a;
@@ -41,12 +131,26 @@
 .sf-menu.sf-style-default.sf-navbar {
   background: #BDD2FF;
 }
+
 .sf-menu.sf-style-default li li {
   background: #AABDE6;
 }
 .sf-menu.sf-style-default li li li {
   background: #9AAEDB;
 }
+
+.sf-menu.menu-sg-links li.sf-item-1 {
+  background: #B08080;
+}
+
+.sf-menu.menu-sg-links li.sf-item-2 {
+  background: #80B080;
+}
+
+.sf-menu.menu-sg-links li.sf-item-3 {
+  background: #8080B0;
+}
+
 .sf-menu.sf-style-default li:hover,
 .sf-menu.sf-style-default li.sfHover,
 .sf-menu.sf-style-default a:focus,
@@ -55,6 +159,17 @@
   background: #CFDEFF;
   outline: 0;
 }
+
+.sf-menu.menu-sg-links li:hover,
+.sf-menu.menu-sg-links li.sfHover,
+.sf-menu.menu-sg-links a:focus,
+.sf-menu.menu-sg-links a:hover,
+.sf-menu.menu-sg-links a:active {
+  background: #D0D0D0;
+  outline: 0;
+}
+
+
 .sf-menu.sf-style-default ul.sf-megamenu li.sf-megamenu-wrapper ol,
 .sf-menu.sf-style-default ul.sf-megamenu li.sf-megamenu-wrapper ol li {
 	margin: 0;
