@@ -1,32 +1,32 @@
-.sf-menu.sf-style-sgbuzz {
+.sf-menu.main-menu {
   float: left;
   margin-bottom: 0em;
   padding: 0;
 }
-.sf-menu.sf-style-sgbuzz.sf-navbar {
+.sf-menu.main-menu.sf-navbar {
   width: 100%;
 }
-.sf-menu.sf-style-sgbuzz ul {
+.sf-menu.main-menu ul {
   padding-left: 0;
 }
-.sf-menu.sf-style-sgbuzz a {
+.sf-menu.main-menu a {
   border-left: none;
   border-top: none;
   padding: 0.75em;
   text-decoration: none;
 }
-.sf-menu.sf-style-sgbuzz a,
-.sf-menu.sf-style-sgbuzz a:visited  {
+.sf-menu.main-menu a,
+.sf-menu.main-menu a:visited  {
   color: #606060;
 }
-.sf-menu.sf-style-sgbuzz a.sf-with-ul {
+.sf-menu.main-menu a.sf-with-ul {
   padding-right: 2.25em;
 }
-.sf-menu.sf-style-sgbuzz.rtl a.sf-with-ul {
+.sf-menu.main-menu.rtl a.sf-with-ul {
   padding-left: 2.25em;
   padding-right: 1em;
 }
-.sf-menu.sf-style-sgbuzz span.sf-description {
+.sf-menu.main-menu span.sf-description {
   color: #13a;
   display: block;
   font-size: 0.8em;
@@ -34,24 +34,24 @@
   margin: 5px 0 0 5px;
   padding: 0;
 }
-.sf-menu.sf-style-sgbuzz li,
-.sf-menu.sf-style-sgbuzz.sf-navbar {
+.sf-menu.main-menu li,
+.sf-menu.main-menu.sf-navbar {
   font-weight: bold;
   background: url('../images/menu-background.jpg');
   text-transform: uppercase;
 }
 
-.sf-menu.sf-style-sgbuzz li li {
+.sf-menu.main-menu li li {
   font-weight: normal;
   text-transform: none;
   background: #dde4e8;
 }
 
-.sf-menu.sf-style-sgbuzz li:hover,
-.sf-menu.sf-style-sgbuzz li.sfHover,
-.sf-menu.sf-style-sgbuzz a:focus,
-.sf-menu.sf-style-sgbuzz a:hover,
-.sf-menu.sf-style-sgbuzz a:active {
+.sf-menu.main-menu li:hover,
+.sf-menu.main-menu li.sfHover,
+.sf-menu.main-menu a:focus,
+.sf-menu.main-menu a:hover,
+.sf-menu.main-menu a:active {
   background: #e4eaec;
   outline: 0;
 }
