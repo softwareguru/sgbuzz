@@ -180,6 +180,7 @@ div.view-mode-full div.field-type-image {
    margin-bottom: 12px;
 }
 
+/*
 .sf-menu.sf-style-default {
   float: left;
   margin-bottom: 0em;
@@ -243,8 +244,10 @@ div.view-mode-full div.field-type-image {
   outline: 0;
 }
 
-.sf-menu.sf-style-default li li:hover,
-.sf-menu.sf-style-default li li.sfHover {
+*/
+
+.sf-menu.menu-sg-links li {
+  margin-right: 5px;
 }
 
 .sf-menu.menu-sg-links li a {
