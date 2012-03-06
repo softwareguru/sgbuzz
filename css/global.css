@@ -165,6 +165,7 @@ div.content p {
 
 #mini-login {
     text-align: right;
+    float: right;
     color: white;
     margin-top: 4px;
     margin-right: 4px;
@@ -174,6 +175,10 @@ div.content p {
     color: white;
     font-weight: bold;
     text-decoration: none;
+}
+
+#mini-login a:hover {
+    color: #efefef;
 }
 
 .right-aligned {
