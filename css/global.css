@@ -10,9 +10,6 @@ span.credito {
     float: right;
 }
 
-.view-title-wrapper {
-}
-
 span.view-title {
     color: #404040;
     font-size: 0.85em;
@@ -94,7 +91,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 15px;
     margin-bottom: 10px;
 }
-
 
 h1 {
    font-size: 2.4em;
@@ -238,18 +234,6 @@ div.view-mode-full div.field-type-image {
 .sf-menu.sf-style-default li li li {
 }
 
-.sf-menu.menu-sg-links li.sf-item-1 {
-  background: #B08080;
-}
-
-.sf-menu.menu-sg-links li.sf-item-2 {
-  background: #80B080;
-}
-
-.sf-menu.menu-sg-links li.sf-item-3 {
-  background: #8080B0;
-}
-
 .sf-menu.sf-style-default li:hover,
 .sf-menu.sf-style-default li.sfHover,
 .sf-menu.sf-style-default a:focus,
@@ -261,9 +245,25 @@ div.view-mode-full div.field-type-image {
 
 .sf-menu.sf-style-default li li:hover,
 .sf-menu.sf-style-default li li.sfHover {
-  background: #cdeaec;
 }
 
+.sf-menu.menu-sg-links li a {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.sf-menu.menu-sg-links li.sf-item-1 {
+  background: url('../images/tab-cafe.jpg');
+}
+
+.sf-menu.menu-sg-links li.sf-item-2 {
+  background: url('../images/tab-verde.jpg');
+}
+
+.sf-menu.menu-sg-links li.sf-item-3 {
+  background: url('../images/tab-naranja.jpg');
+  
+}
 
 .sf-menu.menu-sg-links li:hover,
 .sf-menu.menu-sg-links li.sfHover,
@@ -274,39 +274,4 @@ div.view-mode-full div.field-type-image {
   outline: 0;
 }
 
-
-.sf-menu.sf-style-default ul.sf-megamenu li.sf-megamenu-wrapper ol,
-.sf-menu.sf-style-default ul.sf-megamenu li.sf-megamenu-wrapper ol li {
-	margin: 0;
-	padding: 0;
-}
-.sf-menu.sf-style-default ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent {
-	font-weight: bold;
-}
-.sf-menu.sf-style-default ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
-	display: inline;
-	float: left;
-	width: 12em;
-}
-.sf-menu.sf-style-default.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
-	float: right;
-}
-.sf-menu.sf-style-default li.sf-parent-children-1 ul.sf-megamenu {
-	width: 12em;
-}
-.sf-menu.sf-style-default li.sf-parent-children-2 ul.sf-megamenu {
-	width: 24em;
-}
-.sf-menu.sf-style-default li.sf-parent-children-3 ul.sf-megamenu {
-	width: 36em;
-}
-.sf-menu.sf-style-default li.sf-parent-children-4 ul.sf-megamenu {
-	width: 48em;
-}
-.sf-menu.sf-style-default li.sf-parent-children-5 ul.sf-megamenu {
-	width: 60em;
-}
-.sf-menu.sf-style-default li.sf-parent-children-6 ul.sf-megamenu {
-	width: 72em;
-}
 
