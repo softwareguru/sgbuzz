@@ -1,5 +1,27 @@
 /* This file will hold the main styles for your website. */
 
+.zone-footer {
+  padding-top: 15px;
+}
+
+.zone-footer h2.block-title {
+  font-size: 1.2em;
+  line-height: 120%;
+}
+
+.zone-footer ul.menu li {
+  list-style: none;
+  padding:0;
+  margin: 0;
+}
+
+.zone-footer ul.menu a {
+  text-decoration: none;
+  color: #0074ba;
+}
+
+
+
 .sg-links h2.block-title {
   color: #808080;
   font-size: 0.9em;
