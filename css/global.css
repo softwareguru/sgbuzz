@@ -145,6 +145,7 @@ div.content p {
 #zone-branding-wrapper {
     background: url('../images/header-background.jpg');
     background-position: center center;
+    border-bottom: 2px solid #606060;
 }
 
 #logo {
