@@ -1,5 +1,23 @@
 /* This file will hold the main styles for your website. */
 
+.redes-sociales {
+    border: 1px solid #d0d0d0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.redes-sociales .red-social {
+    margin-bottom: 10px;
+}
+
+.otras-redes-sociales {
+	 text-align: center;
+}
+
+.otras-redes-sociales img {
+	 margin: 10px;
+}
+
 .zone-footer {
   padding-top: 15px;
 }
