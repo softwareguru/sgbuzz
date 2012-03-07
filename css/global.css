@@ -164,9 +164,9 @@ div.content p {
 #mini-login {
     text-align: right;
     float: right;
-    color: white;
-    margin-top: 4px;
-    margin-right: 4px;
+    color: #ececec;
+    text-shadow: 2px 2px 2px #a0a0a0;
+    line-height: 40px;
 }
 
 #mini-login a {
