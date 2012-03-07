@@ -28,7 +28,7 @@ ul.sf-menu.menu-sg-links {
 .sf-menu.menu-sg-links li {
   height:30px;
   width: 80px;
-  padding-top: 8px;
+  line-height: 30px;
 }
 
 .sf-menu.menu-sg-links li a {
