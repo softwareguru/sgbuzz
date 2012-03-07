@@ -21,6 +21,8 @@ ul.sf-menu.menu-sg-links {
   moz-border-radius-bottomleft: 8px;
   border-bottom-left-radius: 8px;
   height: 30px;  
+  width: 80%;
+  text-align: center;
 }
 
 .sf-menu.menu-sg-links li {
@@ -36,7 +38,7 @@ ul.sf-menu.menu-sg-links {
 
 .sf-menu.menu-sg-links li.sf-item-1 {
   margin-left:10px;
-  margin-right:20px;
+  margin-right:10px;
   background: #00d915; /* Old browsers */
   background: -moz-linear-gradient(top,  #00d915 50%, #62a302 100%); /* FF3.6+ */
   background: -webkit-linear-gradient(top,  #00d915 50%,#62a302 100%); /* Chrome10+,Safari5.1+ */
@@ -55,7 +57,7 @@ ul.sf-menu.menu-sg-links {
 }
 
 .sf-menu.menu-sg-links li.sf-item-3 {
-  margin-left:20px;
+  margin-left:10px;
   margin-right:10px;
   background: #bf6d00; /* Old browsers */
   background: -moz-linear-gradient(top,  #bf6d00 50%, #703e00 100%); /* FF3.6+ */
