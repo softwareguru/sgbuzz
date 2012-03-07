@@ -12,7 +12,7 @@
 .sf-menu.main-menu a {
   border-left: none;
   border-top: none;
-  padding: 0.75em;
+  padding: 1em;
   text-decoration: none;
 }
 .sf-menu.main-menu a,
@@ -44,7 +44,7 @@
 .sf-menu.main-menu li li {
   font-weight: normal;
   text-transform: none;
-  background: #00b7e9;
+  background: #00b6e6;
   margin-right: 5px;
 }
 
