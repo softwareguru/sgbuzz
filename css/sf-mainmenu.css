@@ -17,13 +17,13 @@
 }
 .sf-menu.main-menu a,
 .sf-menu.main-menu a:visited  {
-  color: #e8e8e8;
+  color: #ececec;
   text-shadow: 2px 2px 2px #a0a0a0;
 }
 
 .sf-menu.main-menu a:hover  {
   color: #ffffff;
-  text-shadow: 2px 2px 2px #a0a0a0;
+  text-shadow: 2px 2px 4px #a0a0a0;
 }
 
 .sf-menu.main-menu a.sf-with-ul {
