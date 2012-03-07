@@ -23,7 +23,7 @@
 
 .sf-menu.main-menu a:hover  {
   color: #ffffff;
-  text-shadow: 2px 2px 4px #a0a0a0;
+  text-shadow: 2px 2px 2px #a0a0a0;
 }
 
 .sf-menu.main-menu a.sf-with-ul {
@@ -38,23 +38,21 @@
   font-weight: bold;
   background: url('../images/menu-background.jpg');
   text-transform: uppercase;
+  margin-right: 15px;
 }
 
 .sf-menu.main-menu li li {
   font-weight: normal;
   text-transform: none;
   background: #00b7e9;
+  margin-right: 5px;
 }
 
 .sf-menu.main-menu li:hover,
-.sf-menu.main-menu li.sfHover {
-  background: url('../images/menu-background.jpg');
+.sf-menu.main-menu li.sfHover,
+.sf-menu.main-menu a:focus,
+.sf-menu.main-menu a:hover,
+.sf-menu.main-menu a:active {
   outline: 0;
 }
 
-.sf-menu.main-menu li li:hover,
-.sf-menu.main-menu li li.sfHover 
- {
-  background: #7fdbf2;
-  outline: 0;
-}
