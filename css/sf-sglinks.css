@@ -1,4 +1,8 @@
 
+ul.sf-menu.menu-sg-links {
+  background: url('../images/sglinks-background.png');
+}
+
 .sf-menu.menu-sg-links li {
   margin-right: 5px;
   padding: 10px 5px 3px 5px;
