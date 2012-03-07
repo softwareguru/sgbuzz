@@ -166,7 +166,7 @@ div.content p {
     float: right;
     color: #ececec;
     text-shadow: 2px 2px 2px #a0a0a0;
-    line-height: 40px;
+    margin-top: 10px;
 }
 
 #mini-login a {
