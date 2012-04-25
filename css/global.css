@@ -221,12 +221,16 @@ div.teaser_summary p { margin: 0; }
 .teaser_header h4 { margin-bottom: 5px; }
 .node-teaser { border-bottom: 1px solid #C0C0C0; }
 
-div.view-mode-full div.field-type-image {
+div.view-mode-full div.field-type-image,
+div.view-mode-full div.field-type-website-screenshot-image {
    float: left;
    margin-right: 15px;
    margin-bottom: 12px;
 }
 
+div.form-item-field-screenshot-image-und-0-description {
+  display: none;
 
+}
 
 
