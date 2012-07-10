@@ -1,14 +1,32 @@
 /* This file will hold the main styles for your website. */
 
+.redes-sociales-google {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.redes-sociales-fb {
+    border: 1px solid #d0d0d0;
+    background-color: #f5fcfe;
+    padding: 0px 3% 3%; 
+}
+
+.redes-sociales-tw {
+    border: 1px solid #d0d0d0;
+    background-color: #eef9fd;
+    padding: 0px 3% 0%;
+}
+
 .redes-sociales {
     border: 1px solid #d0d0d0;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 10px;
+   background-color: #d8e6eb;
+    margin-bottom: 0px;
+    padding: 0px 5% 0%;
+
 }
 
 .redes-sociales .red-social {
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 .otras-redes-sociales {
@@ -214,8 +232,9 @@ div.content p {
     background-repeat: x-repeat;
 }
 
-.teaser_summary { float: left; width:67% }
-.teaser_share { float: right; width: 33%; text-align: right; }
+.teaser_summary {  }
+.teaser_share {  }
+.teaser_thumbnail { padding-top: 20px; padding-bottom: 10px; }
 .teaser_footer { }
 div.teaser_summary p { margin: 0; }
 .teaser_header h4 { margin-bottom: 5px; }
