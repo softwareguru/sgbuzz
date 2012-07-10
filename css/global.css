@@ -8,7 +8,8 @@
 .redes-sociales-fb {
     border: 1px solid #d0d0d0;
     background-color: #f5fcfe;
-    padding: 0px 3% 3%; 
+    padding: 0px 3% 3%;
+    color: #02b3e5;
 }
 
 .redes-sociales-tw {
@@ -43,7 +44,7 @@
 
 .zone-footer h2.block-title {
   font-size: 1.2em;
-  line-height: 120%;
+  line-height: 120%;  
 }
 
 .zone-footer ul.menu li {
