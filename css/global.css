@@ -1,5 +1,9 @@
 /* This file will hold the main styles for your website. */
 
+.node-add-to-cart {
+    float: right;
+}
+
 .redes-sociales-google {
     padding-left: 0px;
     padding-right: 0px;
