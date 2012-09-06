@@ -2,16 +2,17 @@
 
 .uc-price-label {
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.4em;
 }
 
 .uc-price {
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.4em;
 }
 
 .node-add-to-cart {
     float: right;
+    font-size: 1.2em;
 }
 
 .redes-sociales-google {
