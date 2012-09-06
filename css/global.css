@@ -1,5 +1,15 @@
 /* This file will hold the main styles for your website. */
 
+.uc-price-label {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.uc-price {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
 .node-add-to-cart {
     float: right;
 }
