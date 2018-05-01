@@ -1,0 +1,165 @@
+/**
+ * @file
+ * Styles for Newsplus Lite's layout.
+ */
+
+#header {
+  border-bottom: 1px solid;
+  z-index: 499;
+  position: relative;
+}
+#page-intro > .container {
+  background-color: #fff;
+  z-index: 440;
+}
+#page-intro-inside {
+  position: relative;
+  margin: 0 -15px;
+}
+#page > .container {
+  z-index: 440;
+  background-color: #fff;
+}
+#page-inside {
+  padding-bottom: 30px;
+}
+#top-content {
+  padding: 20px 0 0 0;
+}
+#top-content #slideshow {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+#top-content + #main-content {
+  padding-top: 10px;
+}
+.front #banner #slideshow {
+  margin-top: 10px;
+}
+#main-content {
+  padding-top: 45px;
+}
+#main-content > .row {
+  overflow: hidden;
+}
+#highlighted {
+  background-color: #f8f8f8;
+  border-bottom: 6px solid #e4e4e4;
+  padding-bottom: 0;
+  margin-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#footer {
+  background-color: #d0d0d0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#footer a:hover {
+  color: #1090f0;
+}
+
+#footer-inside {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#footer-first {
+  flex-basis: 40%;
+}
+
+#subfooter {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+@media (min-width: 992px) {
+  .no-sidebars #highlighted {
+    margin-left: -28.6%;
+    margin-right: -28.6%;
+    padding-left: 28.6%;
+    padding-right: 28.6%;
+  }
+  .layout-sidebar-second #highlighted,
+  .layout-sidebar-second #banner {
+    margin-left: -15px;
+  }
+  .layout-sidebar-first #highlighted,
+  .layout-sidebar-first  #banner {
+    margin-right: -15px;
+  }
+  .not-front.layout-sidebar-second #highlighted {
+    margin-left: -17.8%;
+    padding-left: 17.8%;
+  }
+  .not-front.layout-sidebar-first #highlighted {
+    margin-right: -17.8%;
+    padding-right: 17.8%;
+  }
+  .not-front.layout-sidebar-second #banner {
+    margin-left: -17.8%;
+  }
+  .not-front.layout-sidebar-first #banner {
+    margin-right: -17.8%;
+  }
+}
+@media (max-width: 991px) {
+  #highlighted,
+  #banner {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+/* Regions */
+
+.footer-area {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #464646;
+}
+.subfooter-area {
+  font-size: 13px;
+}
+.subfooter-area p {
+  padding-bottom: 5px;
+}
+@media (max-width: 991px) {
+  .subfooter-area { text-align: center; }
+}
+
+#branding-wrapper {
+  height: 75px;
+  width: 160px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pre-header {
+  height: 30px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header {
+  height: 45px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-right {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.width-100 {
+  width: 100%;
+}

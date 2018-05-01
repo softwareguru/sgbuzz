@@ -1,0 +1,29 @@
+name: SGBuzz
+type: theme
+base theme: classy
+description: 'SG Buzz theme. Based on newsplus lite, thank you.'
+core: 8.x
+libraries:
+  - sgbuzz/fontawesome
+  - sgbuzz/fonts-google
+  - sgbuzz/global-styling
+  - sgbuzz/messages
+regions:
+  branding: 'Branding'
+  pre_header_left: 'Pre Header Left'
+  pre_header_right: 'Pre Header Right'
+  navigation: 'Main Navigation'
+  nav_right: 'Nav Right'
+  page_intro: 'Page Intro'
+  top_content: 'Top Content'
+  banner: 'Banner'
+  highlighted: 'Highlighted'
+  promoted: 'Promoted Area'
+  content: 'Content'
+  sidebar_first: 'First Sidebar'
+  sidebar_second: 'Second Sidebar'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  sub_footer_left: 'Subfooter Left'
+  footer: 'Subfooter Right'

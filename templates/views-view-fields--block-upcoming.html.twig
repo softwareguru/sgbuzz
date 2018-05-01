@@ -1,0 +1,18 @@
+<div class="item">
+    <div class="post">
+        <div class="post-thumb">
+            <a href="{{ fields.view_node.content }}">
+                <img src="{{ fields.field_image.content|trim }}" data-src="{{ fields.field_image.content|trim }}" alt="{{ fields.title.content }}"/>
+            </a>
+        </div>
+        <div class="post-content">
+            <div class="post-category">
+                {{ fields.field_ciudad.content }}
+            </div>
+            <h6 class="post-title">
+                <a href="{{ fields.view_node.content }}">{{ fields.title.content }}</a>
+            </h6>
+        </div>
+    </div>
+    <!-- Post -->
+</div>

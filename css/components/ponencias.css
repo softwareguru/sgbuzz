@@ -1,0 +1,60 @@
+
+.ponencias-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+  }
+ 
+@media (max-width: 767px) {
+    .ponencias-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }    
+}  
+
+  .ponencia {
+    display:block;
+    position: relative;
+  }
+  
+  .ponencia-thumbnail {
+    max-width: 100%;
+    border-bottom: solid 1px #404040;
+  }
+  
+  .ponencia-title {
+    font-size: 1em;
+    margin-bottom: 0.6em;
+  }
+  
+  .post-format {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    text-align: center;
+    height: 32px;
+    width: 32px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 13px;
+    background: rgba(0,0,0,0.2);
+  }
+  
+  .ponencia:hover .post-format {
+    transform: scale(1.2);
+  }
+  
+  .ponencia-evento {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Rajdhani, Helvetica Neue, sans-serif;
+    font-size: 0.9em;
+  }
+
+  .ponencia-evento a {
+    color: #808080;
+  }

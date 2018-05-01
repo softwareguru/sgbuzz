@@ -1,0 +1,21 @@
+/**
+ * @file
+ * Visual styles for Newsplus Lite's fixed header.
+ */
+
+.onscroll #branding-wrapper {
+  position: fixed;
+  z-index:500;
+  top: 0;
+  height: 45px;
+  width: 70px;
+  padding-left: 20px;
+}
+
+.onscroll #header {
+  position: fixed;
+  z-index: 499;
+  top: 0;
+  width: 100%;
+  padding-left: 80px;
+}

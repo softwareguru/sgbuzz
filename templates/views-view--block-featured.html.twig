@@ -1,0 +1,33 @@
+<div class="container featured-posts">
+    <div class="row row-gallery">
+        {% set k = 1 %}
+        {% for i, row in rows.0 ['#rows'] %}
+            {% if k == 1 %}
+                <div class="first col-md-6 col-sm-12">
+                    {{ row ? row }}
+                </div>
+                {% set k = k + 1 %}
+            {% elseif k == 2 %}
+                <div class="col-md-6 col-sm-4">
+                    {{ row ? row }}
+                </div>
+                {% set k = k + 1 %}
+            {% elseif k == 3 %}
+                <div class="col-md-3 col-sm-4">
+                    {{ row ? row }}
+                </div>
+                {% set k = k + 1 %}
+            {% elseif k == 4 %}
+                <div class="col-md-3 col-sm-4">
+                    {{ row ? row }}
+                </div>
+                {% set k = k + 1 %}
+            {% else %}
+                <div class="first col-md-6 col-sm-12">
+                    {{ row ? row }}
+                </div>
+                {% set k = 2 %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

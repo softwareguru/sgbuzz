@@ -1,0 +1,241 @@
+/**
+ * @file
+ * Visual styles for Newsplus Lite's primary menu.
+ */
+
+/* Primary Menu */
+.region-navigation {
+  clear: both;
+}
+.region-navigation .menu a {
+  display: block;
+  text-decoration: none;
+}
+
+/**
+ * Primary Menu Toggle
+ * Hide the toggle by default
+ */
+.menu-toggle,
+.menu-toggle-target {
+  display: none;
+}
+
+/* Unhide it for the primary menu. */
+.region-navigation .menu-toggle-target {
+  display: inherit;
+  position: fixed;
+  top: 0;
+}
+.region-navigation .menu-toggle {
+  display: none;
+}
+body:not(:target) .region-navigation .menu-toggle {
+  color: #FFF;
+  float: none;
+  display: block;
+  text-decoration: none;
+  padding: 0.9em 10px 0.9em 10px;
+  z-index: 1000;
+}
+body:not(:target) .region-navigation .menu-toggle-target-show:target ~ .menu-toggle,
+body:not(:target) .region-navigation .menu-toggle--hide {
+  display: none;
+}
+body:not(:target) .region-navigation .menu-toggle-target-show:target ~ .menu-toggle--hide {
+  display: block;
+}
+
+body:not(:target) .region-navigation .menu-item {
+  height: 0;
+  overflow: hidden;
+}
+body:not(:target) .region-navigation .menu-toggle-target-show:target ~ .menu .menu-item {
+  height: auto;
+  overflow: visible;
+}
+
+/**
+ * Media queries for primary menu.
+ */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .region-navigation .menu {
+    margin: 0 5px;
+    padding: 0;
+    text-align: center;
+  }
+  .region-navigation .menu-item,
+  body:not(:target) .region-navigation .menu-item {
+    float: left;
+    margin-right: 1.5%;
+    padding: 0;
+    display: inline-block;
+    width: 31%;
+    height: auto;
+    overflow: visible;
+  }
+  .region-navigation .menu-item:nth-child(3n) {
+    margin-right: -5px;
+  }
+  .region-navigation .menu a {
+    float: none;
+    display: block;
+    padding: 0.9em 5px;
+  }
+  body:not(:target) .region-navigation .menu-toggle {
+    display: none;
+  }
+}
+@media all and (min-width: 992px) {
+  .region-navigation .menu-item,
+  body:not(:target) .region-navigation .menu-item {
+    width: auto;
+    height: auto;
+    overflow: visible;
+  }
+  .featured .region-navigation .menu-item a:active,
+  .featured .region-navigation .menu-item a.is-active {
+  }
+  body:not(:target) .region-navigation .menu-toggle {
+    display: none;
+  }
+}
+
+#block-socialmedialinks ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+  
+#block-socialmedialinks li {
+  display: inline-block;
+  margin-left: 0.8em;
+}
+
+#block-socialmedialinks li a:hover {
+  color: #acd2ef;
+}
+
+
+#main-navigation ul.menu li a {
+  font-size: 15px;
+  line-height: 23px;
+  padding: 10px 18px 12px 10px;
+  color: #202020;
+  text-transform: uppercase;
+  font-family: Rajdhani, Helvetica Neue, Roboto, sans-serif;
+  font-weight: 500;
+}
+#pre-header ul.menu li a {
+  font-size: 0.8em;
+  padding: 6px 10px 6px 10px;
+  color: #ffffff;
+
+}
+
+#pre-header ul.menu li {
+  display: inline-block;
+  float: none;
+}
+
+#main-navigation ul.menu li.expanded > a:before,
+#main-navigation ul.menu li.collapsed > a:before,
+#pre-header ul.menu li.expanded > a:before,
+#pre-header ul.menu li.collapsed > a:before,
+#header-top ul.menu li.expanded > a:before,
+#header-top ul.menu li.collapsed > a:before {
+  content: "";
+}
+#main-navigation ul.menu li li,
+#pre-header ul.menu li li {
+  margin: 0;
+}
+
+/* components: menu */
+#main-navigation ul#superfish-main li a:hover {
+  color: #808080;
+}
+
+ul#superfish-main li a, 
+ul#superfish-main li a.sf-depth-2 {
+  color: #ffffff;
+}
+
+ul#superfish-main-accordion li a.sf-depth-1,
+ul#superfish-main-accordion li a.sf-depth-2{
+  color: #ffffff;
+}
+
+ul.menu li.menu-item--collapsed > a:before,
+ul.menu li.menu-item--expanded > a:before,
+.subfooter-area ul.menu li a:hover {
+  color: #acd2ef;  
+}
+
+/* components: menu: superfish */
+#main-navigation .sf-menu ul {
+  background-color: #1090f0;
+  color: #ffffff;
+}
+#main-navigation .sf-menu > li.sfHover > a {
+  background-color: #1090f0;
+  color: #ffffff;
+}
+#main-navigation .sf-menu > li.sfHover > a:hover {
+  background-color: #2898f0;
+  color: #eaeaea;  
+}
+#main-navigation .sf-menu ul li.sfHover>a,
+#main-navigation .sf-menu ul li a:hover {
+  background-color: #2898f0;
+  color: #ffffff;
+}
+#pre-header ul.menu li a:hover {
+  color: #e1e1e1;
+}
+
+/* Remove collapsed & expanded menu arrows */
+.region-navigation ul.menu li.menu-item--collapsed > a:before,
+.region-navigation ul.menu li.menu-item--expanded > a:before {
+  content: ""
+}
+
+@media all and (max-width: 991px) {
+  #pre-header-right {
+    display: none;
+  }
+
+  #branding-wrapper {
+    width: 100px;
+  }
+
+}
+
+@media all and (max-width: 767px) {
+  #main-navigation ul.menu {
+    display:none;
+  }
+
+  #pre-header-left {
+    font-size: 0.8em;
+  }
+
+  #branding-wrapper {
+    width: 80px;
+  }
+
+  #main-navigation li a {
+    background-color: #2898f0;
+    background-color: rgba(40,152,240,0.9);
+  }
+
+  #main-navigation li a:hover {
+    background-color: #1090f0;
+    color: #ffffff;
+  }
+
+  #block-socialmedialinks ul {
+    display: none;
+  }
+}
+

@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Visual styles for the site branding block in Newsplus Lite.
+ */
+
+/* Logo - Site name*/
+.logo img {
+  width: 140px;
+  padding: 0px 10px;
+}
+
+.logo:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+

@@ -1,0 +1,230 @@
+.node--type-link .field--name-field-weblink {
+    font-size: 0.7em;
+    margin: 0px;
+}
+
+.featured-posts .post {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 248px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.featured-posts .post:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: block;
+}
+
+.featured-posts .post:hover:before {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.featured-posts .first .post {
+    height: 500px;
+}
+
+.row-gallery {
+    margin-left: -1px;
+    margin-right: -1px;
+}
+.row-gallery [class*=" col-"], .row-gallery [class^=col-] {
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.featured-posts .post-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.featured-posts .post-category {
+    margin-bottom: 10px;
+}
+.featured-posts .post .post-category a {
+    background-color: #2898f0;
+    border-color: #2898f0;
+    color: #fff;
+    padding: 3px 10px;
+}
+.featured-posts .post .post-title {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.featured-posts .post .post-title a {
+    color: #fff;
+}
+
+.post .post-meta {
+    display: block;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.post .post-meta li {
+    float: left;
+    margin-right: 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.post .post-meta li i {
+    margin-right: 5px;
+}
+
+ul.post-meta {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.post .post-category a {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Rajdhani, Helvetica Neue, sans-serif;
+    color: #bbb;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.region-banner {
+    display: flex;
+}
+
+#block-bannerleaderboard {
+    padding: 20px 0 10px 0;
+    margin: 0 auto;
+}
+
+h3.field__label.inline {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.region-top-content .widget-title, .region-content .widget-title {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    background: #f0f0f0;
+}
+.region-top-content .widget-title h2, .region-content .widget-title h2 {
+    background-color: #2898f0;
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    color: #fff;
+    padding-right: 20px;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    line-height: 40px;
+    padding: 0 20px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Rajdhani, Helvetica Neue, sans-serif;
+}
+
+#block-block-upcoming .widget-content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#block-block-upcoming .item {
+    width: 270px;
+    text-align: center;
+}
+
+#block-block-upcoming h6 {
+    margin: 10px 0;
+    font-size: 1.0em;
+    font-weight: 600;
+}
+
+.node--type-event .node__meta {
+    display: none;
+}
+
+.node--view-mode-teaser .field--name-body {
+    font-size: 0.9em;
+}  
+
+.view-taxonomy-term .field--name-field-image {
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 3em;
+}
+
+.view-header .field--name-field-one-liner {
+    font-size: 1.3em;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 500px) {
+    blockquote {
+      padding: 0 0 0 80px;
+    }
+    blockquote:after {
+      left: 0;
+      font-size: 190px;
+    }
+}
+  
+#block-encirculacion .field--name-body {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;  
+}
+
+#block-encirculacion img {
+      max-width: 100%;
+  }
+#block-encirculacion  a {
+    text-decoration: none;
+    color: #202020;
+  }
+
+#block-encirculacion .revista {
+    grid-row: 1/5;
+}
+
+#block-encirculacion .author {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #888;
+}
+
+#block-encirculacion .article {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap: 15px;
+}
+
+#block-encirculacion .article img {
+    grid-row: 1/3;
+}
+
+.field--name-field-paragraphs {
+    margin-bottom: 2em;
+  }
+  

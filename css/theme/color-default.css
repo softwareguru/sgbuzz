@@ -1,0 +1,261 @@
+/*
+base-color: #1090f0
+darker-color: #b00711
+lighter-color: #acd2ef
+rgb-base: 234,45,73
+rgb-light: 192,39,60
+ */
+
+/* base: elements */
+a {
+  color: #1090f0;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #acd2ef;
+}
+pre {
+  border-left-color: #acd2ef;
+}
+.sidebar h2.title,
+#page .block-views h2.title {
+  border-bottom-color: #1090f0;
+}
+
+/* base: layout */
+#pre-header {
+  background-color: #202020;
+}
+
+#header {
+  background-color: #ffffff;
+  border-bottom-color: #eaeaea;
+}
+
+/* components: accordion */
+.panel-title a,
+.panel-heading a:hover {
+  background-color: #1090f0;
+}
+
+/* components: block */
+.sidebar .block > h2,
+#page .block-views > h2 {
+  border-bottom-color: #1090f0;
+}
+
+/* components: buttons */
+a.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  background-color: #1090f0;
+}
+.pre-header-area a.button,
+.pre-header-area input[type="submit"],
+.header-top-area a.button,
+.header-top-area input[type="submit"] {
+  background-color: #1090f0!important;
+}
+.pre-header-area a.button:hover,
+.pre-header-area input[type="submit"]:hover,
+.header-top-area a.button:hover,
+.header-top-area input[type="submit"]:hover {
+  background-color: #2898f0 !important;
+}
+a.button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+a.button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+a.button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  background-color: #2898f0;
+}
+
+/* components: dropdown-blocks */
+.dropdown .trigger {
+  color: #acd2ef;
+}
+.colored-area .dropdown .trigger {
+  color: #ffffff;
+}
+.colored-area .dropdown-menu > li {
+  color: #3f3f3f;
+}
+.colored-area .dropdown-menu > li a {
+  color: #1090f0;
+  text-decoration: none;
+}
+.colored-area .dropdown-menu > li a:hover,
+.colored-area .dropdown-menu > li a:active,
+.colored-area .dropdown-menu > li a:focus {
+  color: #acd2ef;
+  text-decoration: none;
+}
+
+/* components: fields */
+.field--entity-reference-target-type-taxonomy-term ul.links li a:hover {
+  background-color: #acd2ef;
+}
+
+/* components: flexslider-internal-banner */
+#internal-slider-carousel ul.slides > li.flex-active-slide,
+#internal-slider-carousel ul.slides > li:hover {
+  border-color: #acd2ef;
+}
+@media (max-width: 767px) {
+  #internal-slider-carousel .flex-direction-nav a {
+    border-color: #acd2ef;
+    color: #acd2ef;
+  }
+}
+
+/* components: flexslider-main */
+.flex-direction-nav a  {
+  color: #acd2ef;
+}
+.flexslider:hover .flex-next:hover,
+.flexslider:hover .flex-prev:hover {
+  background-color: #acd2ef;
+}
+@media screen and (max-width: 860px) {
+  .flex-control-paging li a:hover,
+  .flex-control-paging li a.flex-active {
+    background-color: #acd2ef;
+  }
+}
+
+/* components: forms */
+input.form-text:focus,
+textarea:focus {
+  border-color: #acd2ef;
+}
+
+/* components: image-overlay */
+.overlay {
+  background-color: #acd2ef;
+  background-color: rgba(40,152,240,0.3);
+}
+.overlay i {
+  background-color: #acd2ef;
+}
+
+
+
+
+/* components: node-links */
+ul.links li.statistics-counter {
+  color: #1090f0;
+}
+ul.links li a:hover,
+.more a:hover {
+  background-color: #2898f0;
+}
+
+/* components: node */
+.post-progressbar {
+  background-color: #acd2ef;
+}
+.node-info-item .field--entity-reference-target-type-taxonomy-term ul.links li a,
+.node-info-item-term .field--name-field-mt-post-categories a {
+  color: #1090f0;
+}
+.node-info-item .field--entity-reference-target-type-taxonomy-term ul.links li a:hover,
+.node-info-item-term .field--name-field-mt-post-categories a:hover {
+  color: #acd2ef;
+}
+
+/* components: pager */
+li.pager__item > a:hover,
+li.pager__item.is-active > a {
+  background-color: #acd2ef;
+}
+li.pager__item > a:focus {
+  color: #acd2ef;
+}
+
+/* components: primary-menu */
+body:not(:target) .region-navigation .menu-toggle:hover,
+body:not(:target) .region-navigation .menu-toggle--hide {
+  background-color: #acd2ef;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .region-navigation .menu-item,
+  body:not(:target) .region-navigation .menu-item,
+  .region-navigation .menu .menu-item a:hover {
+    background-color: #acd2ef;
+  }
+  .region-navigation .menu-item a,
+  body:not(:target) .region-navigation .menu-item a {
+    background-color: #1090f0;
+  }
+}
+
+/* components: tables */
+table th {
+  background-color: #1090f0;
+}
+
+/* components: tabs */
+.nav-tabs {
+  border-bottom-color:#acd2ef;
+}
+.nav-tabs > li > a:hover {
+  border-color: #acd2ef;
+  background-color: #acd2ef;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background-color: #acd2ef;
+  border-color: #acd2ef;
+}
+@media (min-width: 481px) {
+  .nav-tabs > li.active > a:after {
+    color: #acd2ef;
+  }
+}
+
+/* components: teaser-listings */
+.view-feed .promoted-posts .view-header span {
+  background-color: #acd2ef;
+}
+
+/* components: to-top */
+#toTop {
+  color: #acd2ef;
+}
+
+/* components: view-breaking-slider */
+.view-titles .more-link a {
+  background-color: #acd2ef;
+  border-bottom: 6px solid rgba(192,39,60,0.65);
+}
+
+/* components: view-most-popular */
+.view-popular-objects .views-row:hover {
+  border-color: #acd2ef;
+}
+.view-popular-objects .views-row:hover .views-field-field-mt-post-categories a {
+  background-color: #acd2ef;
+}
+
+/* components: views */
+.views-field-title a:hover {
+  color: #acd2ef;
+}
+.views-field-field-mt-post-categories a:hover {
+  background-color: #acd2ef;
+}
+
+/* Components: view-tags-cloud */
+.view-mt-tags-cloud .views-row a:hover {
+  background-color: #acd2ef;
+}

@@ -1,0 +1,41 @@
+{#
+/**
+ * @file
+ * SG Buzz theme implementation to display a link.
+#}
+
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+    'clearfix',
+  ]
+%}
+
+{% set linkUrl %}
+    {{ content.field_weblink }}
+{% endset %}
+
+<div{{ attributes.addClass(classes) }}>
+  <div class="node-content">
+    <h3{{ title_attributes.addClass('node__title title') }}>
+      <a href="{{ linkUrl|striptags|trim }}" target="_blank" rel="nofollow">{{ label }}</a>
+    </h3>
+    {{ content.field_weblink }}
+    {% block meta_area %}    
+    <div class="node__meta">
+      <span class="post-info">
+        <span>{% trans %} By {{ author_name }} {{ posted_ago }} ago{% endtrans %}</span>
+      </span>
+    </div>
+    {% endblock %}    
+     <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
+      {% block content %}
+        {{ content|without('links', 'field_weblink') }}
+      {% endblock %}
+      {{ content.links }}
+    </div>
+  </div>
+</div>

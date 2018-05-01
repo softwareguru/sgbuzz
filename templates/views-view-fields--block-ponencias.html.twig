@@ -1,0 +1,12 @@
+<article class="ponencia">
+    <a href="{{ fields.view_node.content }}">
+      <img class="ponencia-thumbnail" src="{{ fields.field_image.content|trim }}" />
+      <span class="post-format">
+        <i class="fas fa-play"></i>
+      </span>
+    </a>
+    <div class="ponencia-info">
+      <h6 class="ponencia-title"><a href="{{ fields.view_node.content }}">{{ fields.title.content }}</a></h6>
+      <div class="ponencia-evento">{{ fields.field_evento.content }}</div>
+    </div>
+  </article>
