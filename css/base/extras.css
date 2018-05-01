@@ -188,12 +188,22 @@ h3.field__label.inline {
       font-size: 190px;
     }
 }
-  
+
 #block-encirculacion .field--name-body {
     display: grid;
-    grid-template-columns: 2fr 3fr;
     grid-column-gap: 30px;
     grid-row-gap: 10px;  
+}
+
+@media (max-width: 599px) {
+    #block-encirculacion .field--name-body {
+        grid-template-columns: 1fr;
+    }
+  }
+  @media (min-width: 600px) {
+    #block-encirculacion .field--name-body {
+        grid-template-columns: 2fr 3fr;
+    }
 }
 
 #block-encirculacion img {
