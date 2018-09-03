@@ -142,14 +142,27 @@ h3.field__label.inline {
     font-family: Rajdhani, Helvetica Neue, sans-serif;
 }
 
-#block-block-upcoming .widget-content {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+#block-block-upcoming .widget-content {    
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-column-gap: 12px;
+    grid-template-columns: repeat( 2, 1fr);
+}
+@media (min-width: 768px) and (max-width:1199px) {
+    #block-block-upcoming .widget-content {    
+        grid-template-columns: repeat( 3, 1fr);    
+    }
+}
+@media (min-width: 1200px) {
+    #block-block-upcoming .widget-content {    
+        grid-template-columns: repeat( 6, 1fr);    
+    }
 }
 
+
 #block-block-upcoming .item {
-    width: 270px;
+    width: 180px;
     text-align: center;
 }
 
@@ -167,16 +180,25 @@ h3.field__label.inline {
     font-size: 0.9em;
 }  
 
-.view-taxonomy-term .field--name-field-image {
-    float: left;
-    margin-right: 2em;
-    margin-bottom: 3em;
+.view-header .taxonomy-term.vocabulary-autores-sg .content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 1.4em;
+    margin-bottom: 2em;
+}
+
+.view-header .taxonomy-term.vocabulary-evento-sg .content {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.view-header .field--name-field-image {
+  grid-row: 1/3;
 }
 
 .view-header .field--name-field-one-liner {
     font-size: 1.3em;
     font-style: italic;
-    margin-bottom: 1em;
 }
 
 @media (max-width: 500px) {
@@ -214,14 +236,12 @@ h3.field__label.inline {
     color: #202020;
   }
 
-#block-encirculacion .revista {
-    grid-row: 1/5;
+#block-encirculacion h2 {
+    font-weight: 700;
 }
 
-#block-encirculacion .author {
-    text-transform: uppercase;
-    font-size: 0.8em;
-    color: #888;
+#block-encirculacion .revista {
+    grid-row: 1/5;
 }
 
 #block-encirculacion .article {
@@ -234,7 +254,49 @@ h3.field__label.inline {
     grid-row: 1/3;
 }
 
+#block-encirculacion .title {
+    font-weight: 700;
+}
+
+#block-encirculacion .author {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #888;
+}
+
 .field--name-field-paragraphs {
     margin-bottom: 2em;
+  }
+.field--name-body {
+    margin-top: 1em;
+  }
+
+.view-ponencias-por-evento .aggregated-term {
+  position: relative;
+  color: white;
+}
+
+.view-ponencias-por-evento .term-name {
+    position: absolute;
+    bottom: 10px;
+    left:0;
+    width: 232px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height:1em;
+  }
+  
+  .view-ponencias-por-evento .term-count {
+    position: absolute;
+    top: 5px;
+    left:190px;
+  }
+  
+  .view-ponencias-por-evento .view-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 232px);
+      grid-gap: 26px;
   }
   
