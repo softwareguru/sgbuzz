@@ -271,12 +271,12 @@ h3.field__label.inline {
     margin-top: 1em;
   }
 
-.view-ponencias-por-evento .aggregated-term {
+.view-ponencias-por-evento .aggregated-term, .view-contenido-por-autor .aggregated-term {
   position: relative;
   color: white;
 }
 
-.view-ponencias-por-evento .term-name {
+.view-ponencias-por-evento .term-name, .view-contenido-por-autor .term-name {
     position: absolute;
     bottom: 10px;
     left:0;
@@ -288,15 +288,23 @@ h3.field__label.inline {
     line-height:1em;
   }
   
-  .view-ponencias-por-evento .term-count {
+  .view-ponencias-por-evento .term-count, .view-contenido-por-autor .term-count {
     position: absolute;
     top: 5px;
     left:190px;
   }
   
-  .view-ponencias-por-evento .view-content {
+  .view-ponencias-por-evento .view-content, .view-contenido-por-autor .view-content {
       display: grid;
       grid-template-columns: repeat(auto-fit, 232px);
       grid-gap: 26px;
   }
   
+  div.taxonomy-term.vocabulary-numrevista .field--name-field-image {
+      display: inline-block;
+      margin-right: 15px;
+  }
+
+  div.taxonomy-term.vocabulary-numrevista .field--name-description {
+    display: inline-block;
+}
