@@ -9,7 +9,6 @@ ul.inline li {
 ul.links li a,
 .more a,
 ul.links li.statistics_counter span {
-  font-size: 11px;
   padding: 7px 15px;
   min-width: 105px;
   background-color: #dddddd;

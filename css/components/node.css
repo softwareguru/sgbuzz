@@ -79,10 +79,10 @@
   float: left;
   top: 0;
   left: 0;
-  text-align: center;
+  text-align: right;
   width: 110px;
   font-size: 12px;
-  padding: 0 30px 0 20px;
+  padding: 0 24px 0 0;
 }
 @media (max-width: 991px) {
   .node-content.full-width {
@@ -140,14 +140,12 @@
 /*Node type: Post, Blog Entry, Article - Affix*/
 #affix.affix {
   position: fixed;
-  width: 60px;
 }
 #affix.affix-bottom {
   position: absolute;
-  width: 60px;
 }
 .affix .submitted-info {
-  padding-top: 15px;
+  padding-top: 25px;
 }
 
 /* Node type: Article - Node info */

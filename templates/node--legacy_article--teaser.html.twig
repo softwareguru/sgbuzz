@@ -63,25 +63,15 @@
 #}
 
 {% extends "node.html.twig" %}
-{% block node_side %}
-{{ attach_library('sgbuzz/node-features') }}
-  <div class="node-side">
-    <div id="affix">
-    {% if content.field_autor|render %}
-      <div class="field-autor">{% trans %}By{% endtrans %} {{ content.field_autor }}</div>
-    {% endif %}
-      <div class="submitted-info">
-        <div class="submitted-info-item">
-          {% trans %}Published{% endtrans %}
-          <span>{% trans %}{{posted_ago}} ago{% endtrans %}</span>
-        </div>
-        <div class="submitted-info-item">
-          {% trans %}Last updated{% endtrans %}
-          <span>{% trans %}{{changed_ago}} ago{% endtrans %}</span>
-        </div>
-      </div>
+{% block above_header %}
+  {% if has_image %}
+    <div class="teaser-image-wrapper">
+      {{content.field_image}}
     </div>
-  </div>
+  {% endif %}
 {% endblock %}
-{% block meta_area %}
+{% block content %}
+  <div class="{{content_class}}">
+    {{content|without('field_image', 'links')}}
+  </div>
 {% endblock %}

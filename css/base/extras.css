@@ -110,7 +110,7 @@ ul.post-meta {
 
 h3.field__label.inline {
     margin: 0px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .region-top-content .widget-title, .region-content .widget-title {
@@ -307,4 +307,24 @@ h3.field__label.inline {
 
   div.taxonomy-term.vocabulary-numrevista .field--name-description {
     display: inline-block;
+}
+
+.mailchimp-newsletter-mergefields label {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.node-side .field--name-field-autor ul.links li a {
+    font-size: 12px;
+}
+.node-side .field-autor .links li {
+    white-space: normal;
+}
+
+.node-side .field-autor {
+    margin-bottom: 15px;
+}
+
+.node-side h3.field__label {
+    display: none;
 }

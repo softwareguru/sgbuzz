@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
     //The admin overlay menu height
     var headerHeight = $("#header").outerHeight(true);
     var adminHeight = parseInt($('body').css('paddingTop'));
-    var topValue = adminHeight + headerHeight + 15;
+    var topValue = adminHeight + headerHeight + 25;
 
     //We select the highest of the 2 adminHeight OR fixedheaderHeight to use
     if (headerHeight > adminHeight) {
@@ -24,11 +24,11 @@ jQuery(document).ready(function($) {
 
     function initializeAffix(topAffix) {
       if ($(".fixed-header-enabled").length>0) {
-        affixBottom = affixBottom + headerHeight - fixedAffixTop - adminHeight + 15;
-        initAffixTop = topAffix - adminHeight - headerHeight - 15; //The fixedAffixTop is added as padding on the page so we need to remove it from affixTop
+        affixBottom = affixBottom + headerHeight - fixedAffixTop - adminHeight + 25;
+        initAffixTop = topAffix - adminHeight - headerHeight - 25; //The fixedAffixTop is added as padding on the page so we need to remove it from affixTop
       } else {
         affixBottom = affixBottom;
-        initAffixTop = topAffix - adminHeight - 15; // The adminHeight is added as padding on the page so we need to remove it from affixTop
+        initAffixTop = topAffix - adminHeight - 25; // The adminHeight is added as padding on the page so we need to remove it from affixTop
       }
       $("#affix").affix({
         offset: {

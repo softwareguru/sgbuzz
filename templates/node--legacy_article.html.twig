@@ -66,10 +66,20 @@
 {% block node_side %}
 {{ attach_library('sgbuzz/node-features') }}
   <div class="node-side">
-    <div id="affix">
-    {% if content.field_autor|render %}
-      <div class="field-autor">{% trans %}By{% endtrans %} {{ content.field_autor }}</div>
+    {% if display_submitted %}
+      <div class="user-info">
+        {% if author_picture %}
+          <div class="user-picture">
+            <span{{ author_attributes }}>
+              {{ author_picture }}
+            </span>
+          </div>
+        {% endif %}
+        <div class="user-name">{% trans %} By {{ author_name }}{% endtrans %}</div>
+        {{ metadata }}
+      </div>
     {% endif %}
+    <div id="affix">
       <div class="submitted-info">
         <div class="submitted-info-item">
           {% trans %}Published{% endtrans %}

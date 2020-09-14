@@ -200,7 +200,7 @@ h5,
   margin-top: 0
 }
 .sidebar .block > h2,
-#page .block-views h2.title {
+.sidebar .widget-title h2.title {
   font-size: 14px;
   font-weight: 500;
   padding-bottom: 5px;
