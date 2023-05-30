@@ -3,6 +3,7 @@ type: theme
 base theme: classy
 description: 'SG Buzz theme. Based on newsplus lite, thank you.'
 core: 8.x
+core_version_requirement: ^8 || ^9
 libraries:
   - sgbuzz/fontawesome
   - sgbuzz/fonts-google

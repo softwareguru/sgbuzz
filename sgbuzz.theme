@@ -114,7 +114,7 @@ function sgbuzz_preprocess_page(&$variables) {
     $variables['main_grid_class'] = 'col-md-8';
     $variables['sidebar_second_grid_class'] = 'col-md-4';
   } else {
-    $variables['main_grid_class'] = 'col-md-8 col-md-offset-2';
+    $variables['main_grid_class'] = 'col-md-12';
     $variables['sidebar_first_grid_class'] = '';
     $variables['sidebar_second_grid_class'] = '';
   }
