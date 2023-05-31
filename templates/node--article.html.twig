@@ -73,11 +73,8 @@
       <div class="submitted-info">
         <div class="submitted-info-item">
           {% trans %}Published{% endtrans %}
-          <span>{% trans %}{{posted_ago}} ago{% endtrans %}</span>
-        </div>
-        <div class="submitted-info-item">
-          {% trans %}Last updated{% endtrans %}
-          <span>{% trans %}{{changed_ago}} ago{% endtrans %}</span>
+          <span>{% trans %}{{posted_ago}} ago{% endtrans %} 
+          ({% trans %}updated{% endtrans %} {% trans %}{{changed_ago}} ago{% endtrans %})</span>
         </div>
       </div>
     </div>
