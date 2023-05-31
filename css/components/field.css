@@ -5,6 +5,7 @@
 
 .field--label-inline .field__items {
   margin-top: 20px;
+  float: none;
 }
 .field--type-entity-reference ul.links {
   list-style: none;
@@ -30,6 +31,7 @@
 }
 
 .field--entity-reference-target-type-taxonomy-term ul.links li {
+  float: none;
   white-space: nowrap;
   margin-right: 3px;
   padding: 0;
